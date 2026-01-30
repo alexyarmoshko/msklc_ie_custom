@@ -20,15 +20,14 @@ Built with [Microsoft Keyboard Layout Creator (MSKLC) 1.4](https://www.microsoft
 ## Repo contents
 - `msklc_custom_ie.klc` — MSKLC source layout file.
 - `assets/keyboard-layout.svg` — Small layout preview image (top row).
-- `installation/` — Generated installer artifacts:
+- `setup.zip` — Generated installer artifacts:
   - `setup.exe`
   - `IECustom_amd64.msi`
   - `IECustom_i386.msi`
   - `IECustom_ia64.msi`
-  - `installation/*/IECustom.dll`
 
 ## Install
-1. Run `installation/setup.exe` or the MSI that matches your architecture.
+1. Run `setup.zip -> setup.exe` or the MSI that matches your architecture.
 2. Add **Irish - Custom** in Windows Language settings (Time & language → Language & region → Keyboards).
 
 ## Build or customize
